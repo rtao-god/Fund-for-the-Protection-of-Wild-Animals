@@ -1,7 +1,18 @@
 @import '@/css/variables';
 
+@font-face {
+  font-family: 'Gilroy';
+  src: url('../../assets/fonts/Gilroy-Regular.eot');
+  src: local('Gilroy Regular'), local('Gilroy-Regular'), url('../../assets/fonts/Gilroy-Regular.woff') format('woff'),
+    url('../../assets/fonts/Gilroy-Regular.ttf') format('truetype');
+}
+
+* {
+  font-family: 'Gilroy', 'Heebo', system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
 :root {
-  font-family: 'Heebo', system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: 'Gilroy', 'Heebo', system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
@@ -16,8 +27,5 @@
 
 body {
   margin: 0 127px 0 127px;
-}
-
-* {
-  font-family: 'Heebo';
+  overflow-x: hidden;
 }

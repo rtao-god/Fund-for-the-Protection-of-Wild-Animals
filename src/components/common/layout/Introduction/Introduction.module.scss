@@ -1,6 +1,7 @@
 .introduction {
   .introductionContainer {
     display: flex;
+    gap: 510px;
 
     .introductionTitle {
       @include text-size-h1;

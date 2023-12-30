@@ -1,7 +1,8 @@
 import '@/css/global/index.scss'
 import Header from '@/components/common/layout/Header/Header'
 import Introduction from '@/components/common/layout/Introduction/Introduction'
-import AboutUs from './components/common/layout/AboutUs/AboutUs'
+import AboutUs from '@/components/common/layout/AboutUs/AboutUs'
+import OurServices from '@/components/common/layout/OurServices/OurServices'
 
 function App() {
 
@@ -10,6 +11,7 @@ function App() {
       <Header />
       <Introduction />
       <AboutUs />
+      <OurServices />
     </div>
   )
 }

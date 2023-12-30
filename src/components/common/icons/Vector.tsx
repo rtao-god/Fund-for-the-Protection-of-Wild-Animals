@@ -1,5 +1,5 @@
 interface VectorProps {
-  className?: string;
+  className?: string
 }
 
 export default function Vector({ className }: VectorProps) {

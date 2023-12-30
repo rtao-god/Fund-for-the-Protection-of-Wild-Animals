@@ -1,8 +1,20 @@
 .buttonControlsWrapper {
   display: flex;
-  justify-content: flex-end;
+  align-items: center;
+  justify-content: flex-start; // Default alignment to the left
+  border: none; // Removes default button border
+  padding: 0; // Resets default button padding
+  background: none; // Removes default background
+  cursor: pointer; // Changes cursor to pointer on hover
+
+  &:focus {
+    outline: none; // Removes default focus outline
+  }
 }
 
+.flexEnd {
+  justify-content: flex-end; // Aligns the button to the right
+}
 
 .buttonControls {
   display: inline-flex;
@@ -15,9 +27,11 @@
 
 .buttonControlsContainer {
   display: flex;
+  align-items: center;
   height: 34px;
   align-items: center;
   gap: -6px;
+  justify-content: flex-end;
 }
 
 .buttonControlsText {

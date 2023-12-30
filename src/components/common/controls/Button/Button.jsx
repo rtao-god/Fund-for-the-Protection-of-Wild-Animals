@@ -2,9 +2,11 @@ import styles from './Button.module.scss';
 import Paw from '../../icons/Paw';
 import PawText from '../../icons/PawText';
 
-export default function Button({ text }) {
+export default function Button({ flexEnd, text }) {
+    const buttonClass = flexEnd ? `${styles.buttonControlsWrapper} ${styles.flexEnd}` : styles.buttonControlsWrapper;
+
     return (
-        <div className={styles.buttonControlsWrapper}>
+        <div className={buttonClass}>
             <div className={styles.buttonControls}>
                 <div className={styles.buttonControlsContainer}>
                     <Paw />

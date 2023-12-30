@@ -1,5 +1,4 @@
 @mixin text-size-h1 {
-  font-family: Gilroy;
   font-size: 70px;
   font-style: normal;
   font-weight: 500;
@@ -7,9 +6,10 @@
 }
 
 @mixin text-size-h2 {
-  font-size: 32px;
+  font-size: 48px;
   font-style: normal;
-  line-height: 46px;
+  font-weight: 500;
+  line-height: normal;
 }
 
 @mixin text-size-h4 {
@@ -20,10 +20,10 @@
 }
 
 @mixin text-size-body-1 {
-  font-size: 16px;
+  font-size: 26px;
   font-style: normal;
-  font-weight: 600;
-  line-height: 20px;
+  font-weight: 500;
+  line-height: 32px; /* 123.077% */
 }
 
 @mixin text-size-body-2 {

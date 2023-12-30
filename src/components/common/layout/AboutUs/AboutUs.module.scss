@@ -1,3 +1,37 @@
 .aboutUs {
-    
+  margin-top: 124px;
+  .aboutUsContainer {
+    display: flex;
+    gap: 147px;
+
+    .aboutUsContainerText {
+      @include text-size-body-1;
+
+      .aboutUsTitle {
+        @include text-size-h2;
+        margin-top: 0;
+      }
+    }
+
+    .aboutUsContainerTwo {
+      display: flex;
+      gap: 39.33px;
+
+      .aboutUsContainerTwoFirstImg {
+        width: 385.667px;
+        height: 578.5px;
+      }
+
+      .aboutUsContainerTwoSecondImg {
+        margin-top: 277px;
+        width: 385px;
+        height: 471px;
+      }
+    }
+  }
+
+  .aboutUsTop {
+    position: relative;
+    top: -228px !important;
+  }
 }
