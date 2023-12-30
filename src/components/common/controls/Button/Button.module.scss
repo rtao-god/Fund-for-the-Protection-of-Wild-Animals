@@ -1,0 +1,30 @@
+.buttonControlsWrapper {
+  display: flex;
+  justify-content: flex-end;
+}
+
+
+.buttonControls {
+  display: inline-flex;
+  padding: 13px 24px;
+  gap: 10px;
+  border-radius: 100px;
+  background: var(--primary, #f16835);
+  align-items: center;
+}
+
+.buttonControlsContainer {
+  display: flex;
+  height: 34px;
+  align-items: center;
+  gap: -6px;
+}
+
+.buttonControlsText {
+  color: #fff;
+  font-family: Gilroy;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}

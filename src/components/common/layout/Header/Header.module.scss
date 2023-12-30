@@ -1,0 +1,31 @@
+.root {
+  @include admin-page-paddings;
+  height: 64px;
+  gap: 38px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  border-bottom: 1px solid var(--color-border-secondary);
+  margin-top: 40px;
+}
+
+.headerLogo {
+  display: inline-flex;
+  padding: 13px 24px;
+  border-radius: 100px;
+  background: var(--primary, #f16835);
+}
+
+.headerHamburger {
+  width: 105px;
+  padding: 15.194px 24px;
+  border-radius: 100px;
+  background: rgba(241, 104, 53, 0.5);
+
+  .headerHamburgerContent {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 14.806px;
+  }
+}
